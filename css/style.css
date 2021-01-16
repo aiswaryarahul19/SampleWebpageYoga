@@ -1,0 +1,155 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #077054;
+}
+
+.top-section{
+    
+}
+.top-section h1{
+    color:#99FA99;
+    font-family: 'Nixie One', cursive;
+    font-weight: bolder;
+    text-align: center;
+    font-size:80px;
+
+}
+.top-section p{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+.toggle-btn{
+position: absolute;
+top:90px;
+right:20px;
+
+flex-direction: column;
+justify-content:space-between ;
+width: 30px;
+height:20px;
+}
+.toggle-btn .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+
+}
+.nav-menus{
+    margin-top: 0;  
+    margin-left:70px;
+}
+.nav-menus .active{
+    color:lime;
+}
+
+
+.nav-menus ul{
+    list-style-type: none;
+}
+.nav-menus li{
+    display: inline-block;
+    padding: 20px;
+   
+}
+.nav-menus a{
+    text-decoration: none;
+    font-size:30px;
+    color:white;
+    padding: 14px 16px;
+}
+
+
+
+
+
+.nav-menus a:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+
+
+
+li.dropdown{
+    
+    position:relative;
+    display:inline-block;
+    padding:20px;
+    
+    
+}
+.dropdown:hover{
+    background-color: #000;
+}
+.dropdown-content{
+    display:none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+   z-index:1;
+}
+.dropdown-content a{
+   
+    color:#fff;
+    padding:12px 16px;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown-content a:hover{
+    background-color: #000;
+    color:#fff;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+
+
+
+
+
+.center-block{
+    width:80%;
+    height:800px;
+background-color: white;
+margin-left:10%;
+margin-right: 10%;
+position: relative;
+
+}
+.center-block h1{
+   
+    font-family: 'Nixie One', cursive;
+    font-size: 60px; 
+    color:green;
+    text-align: center;
+   
+}
+.center-block p{
+    font-family: 'Nixie One', cursive;
+    font-size: 60px;
+}
+#main-img{
+    position: absolute;
+    right:20px;
+    top:10px;
+    float:right;
+}
+#main-footer{
+    margin-top: 50px;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#main-footer h2{
+    font-size: 30px;
+
+}
+
+
