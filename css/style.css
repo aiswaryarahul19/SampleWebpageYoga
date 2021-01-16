@@ -1,15 +1,18 @@
+:root{
+    --greenbg-color: #077054;
+    --bg-color:#1e90ff;
+    --font-family:'Nixie One', cursive;
+}
 body{
     margin:0;
     padding: 0;
-    background-color: #077054;
+   background-color: var(--bg-color) ;
 }
 
-.top-section{
-    
-}
+
 .top-section h1{
-    color:#99FA99;
-    font-family: 'Nixie One', cursive;
+    color:#fff;
+    font-family: var(--font-family);
     font-weight: bolder;
     text-align: center;
     font-size:80px;
@@ -42,7 +45,7 @@ height:20px;
     margin-left:70px;
 }
 .nav-menus .active{
-    color:lime;
+    color:rgb(128, 0, 17);
 }
 
 
@@ -82,7 +85,7 @@ li.dropdown{
     
 }
 .dropdown:hover{
-    background-color: #000;
+    background-color: black;
 }
 .dropdown-content{
     display:none;
@@ -107,38 +110,52 @@ li.dropdown{
 .dropdown:hover .dropdown-content{
     display:block;
 }
-
-
-
-
-
-
-.center-block{
-    width:80%;
-    height:800px;
-background-color: white;
-margin-left:10%;
-margin-right: 10%;
-position: relative;
-
+/*
+.main{
+    background: #ffffff;
+	margin: 1px auto 0;
+	max-width: 880px;
+	min-height: 827px;
+	overflow: hidden;
+	padding: 45px 40px 46px;
+    background-color: white;
 }
-.center-block h1{
+
+*/
+.main{
+    background:#fff;
+    margin:1px auto 0;
+    max-width: 900px;
+    min-height: 850px;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.main-text{
+    background: white;
+    float:left;
+    margin: 110px 0 0 25px;
+    max-width: 510px;
    
+}
+
+.main-text h1{
     font-family: 'Nixie One', cursive;
     font-size: 60px; 
     color:green;
     text-align: center;
    
 }
-.center-block p{
+.main-text p{
     font-family: 'Nixie One', cursive;
     font-size: 60px;
 }
-#main-img{
-    position: absolute;
-    right:20px;
-    top:10px;
-    float:right;
+.main img{
+    display: block;
+	float: right;
+	margin: 74px 38px 46px 0;
+	max-width: 100%;
+	width: auto;
 }
 #main-footer{
     margin-top: 50px;
@@ -151,5 +168,7 @@ position: relative;
     font-size: 30px;
 
 }
+
+
 
 
